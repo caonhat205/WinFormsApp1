@@ -64,5 +64,15 @@ namespace QuanLiMuonTra
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmHeThong_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

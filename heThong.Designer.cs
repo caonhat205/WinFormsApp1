@@ -52,11 +52,30 @@
             label2 = new Label();
             label1 = new Label();
             tabPage3 = new TabPage();
+            label17 = new Label();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            label13 = new Label();
+            label12 = new Label();
+            label11 = new Label();
+            label10 = new Label();
+            label9 = new Label();
+            dateTimePicker2 = new DateTimePicker();
+            textBox14 = new TextBox();
+            textBox13 = new TextBox();
+            textBox12 = new TextBox();
+            textBox11 = new TextBox();
+            textBox10 = new TextBox();
+            textBox9 = new TextBox();
+            textBox8 = new TextBox();
+            textBox7 = new TextBox();
             tabPage4 = new TabPage();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabPage2.SuspendLayout();
+            tabPage3.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -291,13 +310,176 @@
             // 
             // tabPage3
             // 
+            tabPage3.BackColor = Color.FromArgb(255, 192, 128);
+            tabPage3.Controls.Add(label17);
+            tabPage3.Controls.Add(label16);
+            tabPage3.Controls.Add(label15);
+            tabPage3.Controls.Add(label14);
+            tabPage3.Controls.Add(label13);
+            tabPage3.Controls.Add(label12);
+            tabPage3.Controls.Add(label11);
+            tabPage3.Controls.Add(label10);
+            tabPage3.Controls.Add(label9);
+            tabPage3.Controls.Add(dateTimePicker2);
+            tabPage3.Controls.Add(textBox14);
+            tabPage3.Controls.Add(textBox13);
+            tabPage3.Controls.Add(textBox12);
+            tabPage3.Controls.Add(textBox11);
+            tabPage3.Controls.Add(textBox10);
+            tabPage3.Controls.Add(textBox9);
+            tabPage3.Controls.Add(textBox8);
+            tabPage3.Controls.Add(textBox7);
             tabPage3.Location = new Point(4, 29);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
             tabPage3.Size = new Size(1106, 761);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Quản lí mượn sách";
-            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            label17.BackColor = Color.FromArgb(128, 255, 255);
+            label17.Location = new Point(749, 149);
+            label17.Name = "label17";
+            label17.Size = new Size(72, 25);
+            label17.TabIndex = 17;
+            label17.Text = "label17";
+            // 
+            // label16
+            // 
+            label16.BackColor = Color.FromArgb(128, 255, 255);
+            label16.Location = new Point(381, 289);
+            label16.Name = "label16";
+            label16.Size = new Size(72, 27);
+            label16.TabIndex = 16;
+            label16.Text = "label16";
+            // 
+            // label15
+            // 
+            label15.BackColor = Color.FromArgb(128, 255, 255);
+            label15.Location = new Point(363, 229);
+            label15.Name = "label15";
+            label15.Size = new Size(72, 27);
+            label15.TabIndex = 15;
+            label15.Text = "label15";
+            // 
+            // label14
+            // 
+            label14.BackColor = Color.FromArgb(128, 255, 255);
+            label14.Location = new Point(363, 134);
+            label14.Name = "label14";
+            label14.Size = new Size(72, 27);
+            label14.TabIndex = 14;
+            label14.Text = "label14";
+            // 
+            // label13
+            // 
+            label13.BackColor = Color.FromArgb(128, 255, 255);
+            label13.Location = new Point(363, 57);
+            label13.Name = "label13";
+            label13.Size = new Size(72, 27);
+            label13.TabIndex = 13;
+            label13.Text = "label13";
+            // 
+            // label12
+            // 
+            label12.BackColor = Color.FromArgb(128, 255, 255);
+            label12.Location = new Point(29, 289);
+            label12.Name = "label12";
+            label12.Size = new Size(72, 27);
+            label12.TabIndex = 12;
+            label12.Text = "label12";
+            // 
+            // label11
+            // 
+            label11.BackColor = Color.FromArgb(128, 255, 255);
+            label11.Location = new Point(29, 212);
+            label11.Name = "label11";
+            label11.Size = new Size(72, 27);
+            label11.TabIndex = 11;
+            label11.Text = "label11";
+            // 
+            // label10
+            // 
+            label10.BackColor = Color.FromArgb(128, 255, 255);
+            label10.Location = new Point(29, 138);
+            label10.Name = "label10";
+            label10.Size = new Size(72, 27);
+            label10.TabIndex = 10;
+            label10.Text = "Tên sách";
+            label10.Click += label10_Click;
+            // 
+            // label9
+            // 
+            label9.BackColor = Color.FromArgb(128, 255, 255);
+            label9.Location = new Point(29, 57);
+            label9.Name = "label9";
+            label9.Size = new Size(72, 27);
+            label9.TabIndex = 9;
+            label9.Text = "Mã sách";
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Location = new Point(454, 50);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(250, 27);
+            dateTimePicker2.TabIndex = 8;
+            // 
+            // textBox14
+            // 
+            textBox14.Location = new Point(885, 146);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(125, 27);
+            textBox14.TabIndex = 7;
+            // 
+            // textBox13
+            // 
+            textBox13.Location = new Point(496, 289);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(125, 27);
+            textBox13.TabIndex = 6;
+            // 
+            // textBox12
+            // 
+            textBox12.Location = new Point(126, 282);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(125, 27);
+            textBox12.TabIndex = 5;
+            // 
+            // textBox11
+            // 
+            textBox11.Location = new Point(496, 229);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(125, 27);
+            textBox11.TabIndex = 4;
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(496, 146);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(125, 27);
+            textBox10.TabIndex = 3;
+            // 
+            // textBox9
+            // 
+            textBox9.Location = new Point(126, 226);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(125, 27);
+            textBox9.TabIndex = 2;
+            // 
+            // textBox8
+            // 
+            textBox8.Location = new Point(126, 131);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(125, 27);
+            textBox8.TabIndex = 1;
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(126, 54);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(125, 27);
+            textBox7.TabIndex = 0;
             // 
             // tabPage4
             // 
@@ -319,11 +501,14 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Phần mềm quản lý mượn trả sách";
             WindowState = FormWindowState.Maximized;
+            Load += frmHeThong_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -353,5 +538,23 @@
         private TextBox textBox5;
         private TabPage tabPage4;
         private PictureBox pictureBox1;
+        private Label label17;
+        private Label label16;
+        private Label label15;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private Label label11;
+        private Label label10;
+        private Label label9;
+        private DateTimePicker dateTimePicker2;
+        private TextBox textBox14;
+        private TextBox textBox13;
+        private TextBox textBox12;
+        private TextBox textBox11;
+        private TextBox textBox10;
+        private TextBox textBox9;
+        private TextBox textBox8;
+        private TextBox textBox7;
     }
 }
